@@ -10,3 +10,24 @@
 .clickable:hover {
   text-decoration: underline;
 }
+
+img {
+  width: 600px;
+  max-width: 100%;
+}
+
+.walrus-facts p {
+  display: none;
+}
+
+.walrus-facts p.effect-fadeout,
+.walrus-facts p.effect-slideup {
+  display: block;
+}
+
+.walrus-facts p span {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: bold;
+  width: 100px;
+}
